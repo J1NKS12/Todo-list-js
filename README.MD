@@ -45,3 +45,5 @@ npm install -g json-server
 ```bash
 json-server --watch json/db.json --port 3000
 ```
+
+4. **Открой index.html в браузере (через Live Server)**
