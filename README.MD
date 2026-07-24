@@ -1,4 +1,4 @@
-# 📋 ToDo List 
+# ToDo List 
 
 Простое и удобное приложение для управления задачами с сохранением на сервере и в `localStorage`.
 
@@ -40,7 +40,7 @@ cd "Todo-list"
 npm install -g json-server
 ```
 
-3. **Запусти сервер::**
+3. **Запусти сервер:**
 
 ```bash
 json-server --watch json/db.json --port 3000
