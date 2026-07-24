@@ -2,10 +2,6 @@
 
 Простое и удобное приложение для управления задачами с сохранением на сервере и в `localStorage`.
 
-## 🚀 Демо
-
-[Ссылка на GitHub Pages](https://J1NKS12.github.io/todo-list-js/)
-
 ## 📸 Скриншот
 
 ![Скриншот приложения](image.png)
@@ -15,7 +11,8 @@
 - JavaScript (ES6+)
 - JSON Server (Mock API)
 - localStorage
-- CSS (Flexbox, адаптив)
+- CSS3 (Flexbox, адаптив)
+- HTML5
 
 ## ⚡ Функционал
 
