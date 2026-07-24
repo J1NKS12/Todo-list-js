@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="../CSS/font.css" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <link rel="stylesheet" href="../CSS/clear.css" />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="todo-list__error-message"></div>
+    <form id="todo-list" action="" method="POST">
+      <div class="todo">
+        <span class="material-icons">alarm</span>
+        <h1 class="todo__title">Мои задачи</h1>
+      </div>
+      <div class="task-creator">
+        <input
+          class="task-creator__input input--focus"
+          type="text"
+          placeholder="Введите текст..."
+        />
+        <button
+          id="addTaskBtn"
+          type="button"
+          class="task-creator__btn btn__primary"
+        >
+          <span class="material-icons">add</span>
+        </button>
+      </div>
+      <div class="filter-creator">
+        <input
+          class="filter-creator__input input--focus"
+          type="text"
+          placeholder="Поиск по задачам..."
+        />
+        <button
+          id="filterBtn"
+          type="button"
+          class="filter-creator__btn btn__primary"
+        >
+          <span class="filter-creator__icon material-icons">search</span>
+        </button>
+      </div>
+      <div class="counter">
+        <div class="counter__task" data-task="Number of tasks:">
+          <span class="counter__count">0</span>
+        </div>
+        <button
+          id="deleteAllBtn"
+          class="counter__btn"
+          data-text="Delete All"
+        ></button>
+      </div>
+      <ul class="task-list">
+        <div class="task-list__delete"></div>
+      </ul>
+    </form>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+/* Reset and base styles  */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Inter', sans-serif;
+	background-color: #e9d1af;
+	box-sizing: border-box;
+
+        }
+
+/* Links */
+ul, ul li {
+	list-style: none;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* Form */
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+

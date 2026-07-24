@@ -1,0 +1,50 @@
+# 📋 ToDo List (Чистый JavaScript)
+
+Простое и удобное приложение для управления задачами с сохранением на сервере и в `localStorage`.
+
+## 🚀 Демо
+
+[Ссылка на GitHub Pages](https://твой-логин.github.io/todo-list-js/) (если выложишь)
+
+## 📸 Скриншот
+
+![Скриншот приложения](image.png)
+
+## 🛠️ Технологии
+
+- JavaScript (ES6+)
+- JSON Server (Mock API)
+- localStorage
+- CSS (Flexbox, адаптив)
+
+## ⚡ Функционал
+
+- ✅ Добавление задач
+- ✅ Удаление задач (по одной и всех)
+- ✅ Отметка "выполнено"
+- ✅ Поиск по названию
+- ✅ Счётчик активных задач
+- ✅ Сохранение в `localStorage`
+- ✅ Загрузка с сервера (JSON Server)
+- ✅ Адаптивный дизайн
+
+## 🏃‍♂️ Как запустить
+
+1. **Клонируй репозиторий:**
+
+```bash
+git clone https://github.com/J1NKS12/todo-list-js.git
+cd "Todo-list"
+```
+
+2. **Установи JSON Server:**
+
+```bash
+npm install -g json-server
+```
+
+3. **Запусти сервер::**
+
+```bash
+json-server --watch json/db.json --port 3000
+```
