@@ -4,7 +4,7 @@
 
 ## 🚀 Демо
 
-[Ссылка на GitHub Pages](https://твой-логин.github.io/todo-list-js/) (если выложишь)
+[Ссылка на GitHub Pages](https://J1NKS12.github.io/todo-list-js/)
 
 ## 📸 Скриншот
 
